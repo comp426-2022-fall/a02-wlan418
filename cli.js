@@ -10,8 +10,8 @@ const args = minimist(process.argv.slice(2));
 console.log(args)
 
 let timezone = moment.tz.guess()
-let latitude = args.n
-let longitude = args.e
+let latitude = 0
+let longitude = 0
 
 //console.log(args.n)
 if (args.h) {
