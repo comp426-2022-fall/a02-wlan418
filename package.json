@@ -1,0 +1,32 @@
+{
+  "name": "example-weather-app",
+  "version": "1.0.0",
+  "description": "an example of a node package",
+  "main": "cli.js",
+  "scripts": {
+    "test": "node cli.js -n 35.92 -w 79.05 -z America/New_York"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comp426-2022-fall/a02-wlan418.git"
+  },
+  "keywords": [
+    "node",
+    "package"
+  ],
+  "author": "wlan418",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/comp426-2022-fall/a02-wlan418/issues"
+  },
+  "bin": {
+    "galosh.js": "./cli.js"
+  },
+  "type": "module",
+  "homepage": "https://github.com/comp426-2022-fall/a02-wlan418#readme",
+  "dependencies": {
+    "minimist": "^1.2.7",
+    "moment-timezone": "^0.5.39",
+    "node-fetch": "^3.3.0"
+  }
+}
